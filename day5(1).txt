@@ -1,0 +1,135 @@
+
+a) Print odd numbers in an array
+
+  var arr=[1,2,3,4,5,6]
+;
+  var temp=[];
+function odd(arr){
+  
+  for(var i=0;i<arr.length;i++)
+
+  {
+    
+    if(arr[i] %2!== 0);
+     
+  {
+      
+    temp.push(arr[i])
+;      
+   }
+      
+   }
+      
+     return temp;
+      
+   }
+      
+  console.log(odd(arr));
+
+b)Convert all the strings to title caps in a string array
+
+  let str = "guvigeek";
+
+
+  var srt1 = function (str) 
+   {
+  
+   return str.toUpperCase();
+
+   };
+
+
+  console.log(srt1(str));
+
+c) Sum of all numbers in an array
+
+var Sum = function (num) {
+  let sum = 0;
+  for (i = 0; i < num.length; i++) {
+    sum == arr[i];
+  }
+  return sum;
+};
+
+console.log(Sum(arr));
+
+d) Return all the prime numbers in an array
+
+  var a = function (arr) {
+  
+  let b = [];
+  
+   for (i = 0; i < arr.length; i++){
+    
+    if (arr[i] % 2 !== 0)
+      
+    
+    b.push(arr[i]);
+  
+  }
+ 
+ }
+ 
+  return b;
+
+  };
+
+
+  console.log(b(arr));
+
+
+e) Return all the palindromes in an array
+
+  var num = [2, 2, 0, 2, 2, 0, 2, 2];
+
+
+  var a = function (num) 
+   {
+ 
+  let reversed = num.reverse();
+ 
+    if (reversed === num) 
+    {
+   
+     return num;
+  
+   }
+
+  };
+
+
+   console.log(a(num))
+
+h) Remove duplicates from an array
+
+  var arr = [1, 1, 2, 2, 3];
+
+  var a = function (num) {
+    return [...new Set(num)];
+   };
+
+      console.log(a(arr));
+
+h) Rotate an array by k times
+  var a = function (arr, k) {
+ 
+  for (var i = 0; i < k; i++) {
+    
+  let b = arr.pop();
+
+    arr.unshift(b);
+  
+ }
+
+  
+  return arr;
+};
+
+
+  let arr = [1, 2, 3, 4];
+
+  let k = 2;
+
+
+  console.log(a(arr, k));
+
